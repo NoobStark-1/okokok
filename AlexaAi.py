@@ -17,10 +17,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "") 
-API_HASH = os.environ.get("API_HASH", "") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "")
+API_ID = os.environ.get("API_ID", "16869914") 
+API_HASH = os.environ.get("API_HASH", "9cf099ff3bd3a365c34f04eeb0a8cfa3") 
+SESSION_NAME = os.environ.get("SESSION_NAME","BQA4rWmSkwf3FfayS3FUvDjDaKoioPtBAtjHL5-Ctnanx_hydPQRXBrxQgFlIbVZGvm1ukAn1u2RPJd0oZJwSDwhqmcQODTfi7oSxzJwL7KVjgTQlZ-5VnsBhhd0rrMe5LQ_OKH-g4Oy2pA26nBfN37yptVkprPTUZgcCuXuL0PUmjSSMo0zCUCBeJPGgF_hvPrKTCYPaMIhjqZJczbb4LXCLnUKAs2gpgiwSLvxw1k2C3AexmbKuhC-e1sU356EnyiQJDroQ1wZ7VGhwkje-cbKf0GLWChBdfBCXRZCBRkWEdxbBxyC9rpIaTkP-Pjy6mqjdu3nmG_Yhb2eqhG1GYJ3AAAAATo1jaIA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://copyninja101:liyaxlambert*143@cluster0.3qincix.mongodb.net/?retryWrites=true&w=majority")
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
